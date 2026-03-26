@@ -1,0 +1,146 @@
+.about-section {
+  padding: 48px 20px;
+  background: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 32px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-text h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+  color: var(--color-text-secondary);
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 20px;
+  color: var(--color-text-secondary);
+}
+
+.about-visual img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 880px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  .about-visual {
+    order: -1;
+  }
+}
+
+.about-highlights {
+  margin-top: 18px;
+}
+.about-highlights h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--color-text-secondary);
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.skill {
+  background: rgba(0, 174, 255, 0.08);
+  color: var(--color-accent);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 18px;
+}
+
+.about-education {
+  margin-top: 20px;
+}
+.about-education h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: var(--color-text-secondary);
+}
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background: rgba(0, 174, 255, 0.08);
+  padding: 12px;
+  border-radius: 8px;
+}
+.edu-meta {
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  margin-top: 6px;
+}
+.edu-left {
+  color: #c7c6c6;
+  display: flex;
+  flex-direction: column;
+}
+.edu-right {
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  text-align: right;
+}
+
+@media (max-width: 880px) {
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .edu-right {
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .about-section {
+    padding: 55px 12px;
+  }
+  .about-text h1 {
+    font-size: 28px;
+  }
+  .about-text p {
+    font-size: 16px;
+  }
+  .about-visual img {
+    border-radius: 6px;
+  }
+  .skills-list {
+    gap: 6px;
+  }
+  .skill {
+    font-size: 16px;
+    padding: 6px 8px;
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
