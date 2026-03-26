@@ -1,0 +1,67 @@
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid ;
+    border-width: 0px 0px 1px 0px;
+    background-color: var(--color-card);
+    border-color: #00aeff2a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+}
+.navbar h1{
+    color: var(--color-accent);
+    transition: text-shadow 0.2s ease;
+}
+
+.navbar h1:hover{
+    text-shadow: 0 0 50px var(--color-accent);
+}
+.navbar-item{
+    display: flex;
+    align-items: center;
+}
+.navbar-item a{
+    color: var(--color-text-primary);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+.navbar-item a:hover{
+    color: var(--color-accent);
+}
+.navbar-item .hire{
+    position: relative;
+    padding: 8px 10px;
+    background-color: var(--color-accent);
+    color: #000011;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    animation: pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+50% {
+        box-shadow: 0 0 20px var(--color-accent);
+    }
+}
+.navbar-item .hire:hover{
+    background-color: var(--color-accent-light);
+    color: #000111;
+    box-shadow: 0 0 18px var(--color-accent);
+}
+
+.navbar .social-link {
+    margin-left: 18px;
+    color: var(--color-text-primary);
+    transition: color 0.3s ease;
+}
