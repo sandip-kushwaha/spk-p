@@ -10,7 +10,7 @@ import CplusplusLogo from '../assets/Cplusplus.png';
 import GitLogo from '../assets/git.png';
 import GithubLogo from '../assets/github.png';
 import MongoDBAtlasLlogo from '../assets/MongoDBAtlas.png';
-import VscodeLogo from '../assets/vscode.png'
+import VscodeLogo from '../assets/VScode.png'
 import Projects from './Projects';
 import Contact from './Contact';
 import { useState, useEffect } from 'react';
