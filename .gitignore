@@ -15,7 +15,7 @@ dist
 dist-ssr
 *.local
 assets
-animations_guide.md
+
 
 # Editor directories and files
 .vscode/*
