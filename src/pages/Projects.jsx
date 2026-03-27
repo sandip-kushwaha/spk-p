@@ -22,7 +22,7 @@ const Projects = () => {
                 <img src={Project1Img} alt="project1" />
                 <h2>Project 1: Portfolio Website</h2>
                 <p>A personal portfolio website built with React, showcasing my skills, projects, and experience.</p>
-                <a href="/projects/portfolio">View Project</a>
+                <a href="https://sandipkushwaha.onrender.com/">View Project</a>
               </div>
             </HoverSlideUp>
           </StaggerItem>
