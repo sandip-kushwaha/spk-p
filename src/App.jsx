@@ -5,7 +5,7 @@ import Projects from './pages/Projects'
 import Contanct from './pages/Contact'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-import Menubar from './components/menubar'
+import Menubar from './components/Menubar'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
