@@ -103,6 +103,7 @@ body {
   color: var(--color-text-secondary);
   animation: bounce 2s infinite;
 }
+
 @keyframes bounce {
   0%,
   100% {
@@ -127,7 +128,7 @@ body {
   color: var(--color-text-secondary);
 }
 .skills p {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--color-text-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -179,7 +180,7 @@ body {
   color: var(--color-text-secondary);
 }
 .projects-header p {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--color-text-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -199,7 +200,7 @@ body {
 
 .project-card {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   background-color: var(--color-card);
   padding: 10px;
   border-radius: 8px;
@@ -426,16 +427,24 @@ body {
 @media (max-width: 1024px){
   /* .home h1{font-size:clamp(2rem,3.5vw,3.5rem)} */
   /* .home h2{font-size:clamp(1rem,2.5vw,2.5rem)} */
-  .project-card{width:48%}
+  .project-card{
+    width:48%;
+  }
 }
 @media (max-width: 768px){
   /* .home{padding-top:72px} */
   /* .home h1{font-size:2.2rem} */
   /* .home h2{font-size:1.4rem} */
   /* .home-btn{flex-direction:column;gap:12px} */
-  .projects-container{padding:20px}
-  .project-card{width:100%}
-  .contact-info, .contact-form{width:100%}
+  .projects-container{
+    padding:20px;
+  }
+  .project-card{
+    width:100%;
+  }
+  .contact-info, .contact-form{
+    width:100%;
+  }
 }
 @media (max-width:420px){
   .home{
