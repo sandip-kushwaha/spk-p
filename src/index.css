@@ -188,10 +188,10 @@ body {
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
   justify-content: center;
   align-items: center;
   padding: 30px 12px;
+  gap: 30px;
 }
 .projects-container p{
   color: var(--color-text-secondary);
@@ -424,13 +424,7 @@ body {
 }
 
 /* Additional breakpoints for smoother responsiveness */
-@media (max-width: 1024px){
-  /* .home h1{font-size:clamp(2rem,3.5vw,3.5rem)} */
-  /* .home h2{font-size:clamp(1rem,2.5vw,2.5rem)} */
-  .project-card{
-    width:48%;
-  }
-}
+
 @media (max-width: 768px){
   /* .home{padding-top:72px} */
   /* .home h1{font-size:2.2rem} */
@@ -493,7 +487,7 @@ body {
   }
   .contact-email a, .contact-phone a, .contact-address p{
     font-size: 18px;
-  }
+  }   
 
 }
 
