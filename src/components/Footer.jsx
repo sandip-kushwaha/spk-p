@@ -13,9 +13,9 @@ const Footer = () => {
           <h4>Web Developer</h4>
           <nav className="footer-items">
             <a href="/">Home</a>
-            <a href="/About">About</a>
-            <a href="/Projects">Projects</a>
-            <a href="/Contact">Contact</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
           </nav>
         </div>
         <div className="social">
