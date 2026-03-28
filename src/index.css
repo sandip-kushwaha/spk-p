@@ -21,13 +21,7 @@ body {
   --color-text-primary: #e6f1ff;
   --color-text-secondary: #8892b0;
 }
-/* Responsive typography and utilities */
-/* h1{font-size:clamp(2rem,4vw,4.5rem)} */
-/* h2{font-size:clamp(1.25rem,3vw,3.75rem)} */
-/* h4{font-size:clamp(0.9rem,1.2vw,1.2rem)} */
 
-/* make images more flexible by default */
-/* img{max-width:100%;height:auto;display:block} */
 body {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
@@ -38,8 +32,6 @@ body {
 .home {
   padding-top: 120px;
   text-align: center;
-  /* padding-left: 16px;
-  padding-right: 16px; */
 }
 .home h4 {
   color: #8892b079;
@@ -426,10 +418,7 @@ body {
 /* Additional breakpoints for smoother responsiveness */
 
 @media (max-width: 768px){
-  /* .home{padding-top:72px} */
-  /* .home h1{font-size:2.2rem} */
-  /* .home h2{font-size:1.4rem} */
-  /* .home-btn{flex-direction:column;gap:12px} */
+
   .projects-container{
     padding:20px;
   }
