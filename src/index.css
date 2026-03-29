@@ -479,6 +479,16 @@ body {
   }   
 
 }
+@media (max-width: 400px){
+  .contact-email a, .contact-phone a, .contact-address p{
+    font-size: 17px;
+  }
+}
+@media (max-width: 375px){
+  .contact-email a, .contact-phone a, .contact-address p{
+    font-size: 15.9px;
+  }
+}
 
 
 
