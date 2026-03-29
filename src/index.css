@@ -429,7 +429,7 @@ body {
     width:100%;
   }
 }
-@media (max-width:420px){
+@media (max-width:440px){
   .home{
     padding-top: 180px;
   }
