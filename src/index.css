@@ -489,6 +489,48 @@ body {
     font-size: 15.9px;
   }
 }
+@media (max-width: 360px){
+  .home{
+    padding-top: 200px;
+  }
+   .home h1{
+    font-size:2rem; 
+  }
+   .home h1 span{   
+    font-size: 2.5rem;
+  }
+   .home h2{
+    font-size:1.4rem; 
+  }
+   .home h4{
+    font-size:10px;
+    line-height: 25px;
+    letter-spacing: 4px;
+  }
+   .home p{
+    font-size:18px; 
+    line-height:1.2;
+  }
+  .home-btn .btn{
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+   .skills h2{
+    font-size: 1.8rem;
+  }
+  .skills p{
+    font-size: 16px;
+  }
+   .skills-list .skill-item{
+    width:120px;
+    padding:10px;
+    font-size:14px;
+  }   
+
+  .contact-email a, .contact-phone a, .contact-address p{
+    font-size: 14px;
+  }
+}
 
 
 
