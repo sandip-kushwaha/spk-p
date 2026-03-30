@@ -16,6 +16,7 @@ import Contact from './Contact';
 import { useState, useEffect } from 'react';
 import { BsArrowDown } from "react-icons/bs";
 import { FadeInDown, ScrollFadeInUp, StaggerContainer, StaggerItem, ScaleOnHover } from '../animations/ScrollAnimations';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -46,8 +47,7 @@ const Home = () => {
         <button className='btn'>
             <a href="/resume">View My Resume</a>
         </button>
-        <button className='btn' onClick={() => window.location.href = '/contact'}>
-           Get In Touch</button>
+        <Link to="/contact" className='btn'>Get In Touch</Link>
       </div>
     </FadeInDown>
 
