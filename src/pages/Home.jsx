@@ -46,9 +46,8 @@ const Home = () => {
         <button className='btn'>
             <a href="/resume">View My Resume</a>
         </button>
-        <button className='btn' >
-            <a href="/contact">Get In Touch
-            </a></button>
+        <button className='btn' onClick={() => window.location.href = '/contact'}>
+           Get In Touch</button>
       </div>
     </FadeInDown>
 
