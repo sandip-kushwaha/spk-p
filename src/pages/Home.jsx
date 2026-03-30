@@ -47,7 +47,7 @@ const Home = () => {
         <button className='btn'>
             <a href="/resume">View My Resume</a>
         </button>
-        <Link to="/contact" className='btn'>Get In Touch</Link>
+         <Link to="/contact" className='btn'>Get In Touch</Link>
       </div>
     </FadeInDown>
 
