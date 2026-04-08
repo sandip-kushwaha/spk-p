@@ -230,7 +230,9 @@ body {
   font-weight: bold;
 }
 .project-card a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  transform: scale(0.99);
+  color: var(--color-accent-light);
 } 
 
 
