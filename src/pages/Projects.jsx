@@ -1,5 +1,6 @@
 import React from 'react'
 import Project1Img from '../assets/Project-1.png'
+import Project2Img from '../assets/Project-2.png'
 import Project3Img from '../assets/Project-3.png'
 import Project5Img from '../assets/Project-5.png'
 import ReactLogo from '../assets/react.svg'
@@ -30,10 +31,10 @@ const Projects = () => {
           <StaggerItem>
             <HoverSlideUp>
               <div className='project-card'>
-                <img src={ReactLogo} alt="project2" />
-                <h2>Project 2: E-commerce Store</h2>
-                <p>An e-commerce store built with Node.js and Express, featuring user authentication, product management, and a shopping cart.</p>
-                <a href="/projects/ecommerce">View Project</a>
+                <img src={Project2Img} alt="project2" />
+                <h2>Project 2: PicBook</h2>
+                <p>PicBook is a full-stack photo sharing web application where users can upload, view, and delete images easily. The project is built using React for the frontend, Node.js and Express for the backend, and MongoDB for database storage.</p>
+                <a href="https://github.com/sandip-kushwaha/PicBook">View Project</a>
               </div>
             </HoverSlideUp>
           </StaggerItem>
