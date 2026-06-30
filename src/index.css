@@ -36,10 +36,10 @@ body {
 .home h4 {
   color: #8892b079;
   font-size: 15px;
-  line-height: 50px;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
+  word-spacing: 8px;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 100;  
 }
 
 .home h1 {
@@ -51,9 +51,12 @@ body {
 .home h2 {
   font-size: 60px;
   color: var(--color-text-secondary);
+  letter-spacing: 1.5px;
 }
 .home p {
   font-size: 20px;
+  letter-spacing: 3px;
+  word-spacing: 1px;
   color: var(--color-text-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -145,6 +148,7 @@ body {
 .skill-item p{
   color: var(--color-text-primary);
   font-size: 18px;
+  letter-spacing: 2.2px;
 }
 /* Ensure skill icons are a consistent size and centered */
 .skills-list .skill-item img {
@@ -216,9 +220,11 @@ body {
   font-size: 24px;
   margin-top: 10px;
   color: var(--color-text-secondary);
+  letter-spacing: 0.5px;
 }
 .project-card p {
   font-size: 16px;
+  letter-spacing: 1px;
   margin: 10px;
   color: var(--color-text-secondary);
 }
@@ -228,6 +234,7 @@ body {
   color: var(--color-accent);
   text-decoration: none;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 .project-card a:hover {
   /* text-decoration: underline; */
@@ -288,6 +295,7 @@ body {
   font-size: 17px;
   margin: 10px 0 10px;
   border-radius: 6px;
+  letter-spacing: 1.5px;
 }
 .contact-details {
   display: flex;
@@ -326,6 +334,7 @@ body {
   align-items: center;
    gap: 8px;
    font-size: 20px;
+   letter-spacing: 1px;
 }
 .contact-phone a:hover {
   color: var(--color-accent-light);
