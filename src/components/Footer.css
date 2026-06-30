@@ -15,10 +15,12 @@
 }   
 .footer h2{
     font-size: 25px;
+    letter-spacing: 1.5px;
     color: var(--color-accent);
 }
 .footer h4{
     margin-bottom: 10px;
+    letter-spacing: 1.5px;
     color: var(--color-text-secondary);
 }
 .footer-items{
@@ -29,6 +31,7 @@
     color: var(--color-text-secondary);
     text-decoration: none;
     font-size: 15px;
+    letter-spacing: 1.5px;
     transition: color 0.3s ease;
 }
 .footer-items a:hover{
@@ -43,6 +46,7 @@
 }
 .social h4{
     color: var(--color-accent);
+    letter-spacing: 1px;
 }
 .social .footericon{
        margin-left: -15px;
@@ -66,4 +70,5 @@
     font-size: 15px;
     color: var(--color-text-secondary);
     text-align: center;
+    letter-spacing: 1.2px;
 }
