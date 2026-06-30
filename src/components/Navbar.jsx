@@ -13,14 +13,15 @@ const Navbar = () => {
            <Link to="/about">About</Link>
            <Link to="/projects">Projects</Link>
            <Link to="/contact">Contact</Link>
+        </nav>
+        
            <Link className='hire' to="/hire">Hire Me</Link>
-           <a href="https://www.linkedin.com/in/sandip-kushwaha-20b8702ba" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className='social-link'>
+        <a href="https://www.linkedin.com/in/sandip-kushwaha-20b8702ba" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className='social-link'>
            <FaLinkedin size={30} className="social-icon" />
          </a>
            <a href="https://github.com/sandip-kushwaha" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className='social-link'>
            <FaGithub size={30} className="social-icon" />
          </a>
-        </nav>
          
     </div>
   )
