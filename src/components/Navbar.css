@@ -14,7 +14,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
     width:90%;
-    /* width: min(100%, 1200px); */
     box-sizing: border-box;
     z-index: 1;
 }
