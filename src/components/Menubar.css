@@ -1,6 +1,6 @@
 
 .menu-header{
-  top: 18px;
+  top: 16px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -10,7 +10,7 @@
   border-width: 1px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 1;  
-  width: 90%;
+  width: 95%;
   background-color: var(--color-card);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
