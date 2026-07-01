@@ -40,8 +40,7 @@ const Menubar = () => {
     <div className='menu-header'>
       <nav ref={navRef} className={`menubar ${open ? 'open' : ''}`}>
         <h1>Sandip</h1>
-        <button
-          className='menu-icon'
+        <button className='menu-icon' 
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
           onClick={() => setOpen(v => !v)}
