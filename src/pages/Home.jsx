@@ -26,7 +26,7 @@ const Home = () => {
     <FadeInDown>
       <div className='home'>
         <h4>Welcome to my Portfolio !!!</h4>
-        <h1>Hi, I'm <span>Sandip Kushwaha</span></h1>
+        <h1>Hi, I'm <span>Sandip prasad Kushwaha</span></h1>
         <h2>{Change[index]}</h2>
         <p>I build responsive and interactive web applications using modern technologies like React, Node.js, and more. </p>
       </div>
