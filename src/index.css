@@ -69,7 +69,7 @@ body {
 }
 .home-btn {
   display: flex;
-  margin:60px;
+  margin:48px;
   gap: 30px;
   justify-content: center;
 }
@@ -99,7 +99,7 @@ body {
 
 .Homeicon {
   display: flex;
-  font-size: 35px;
+  font-size: 30px;
   margin: auto;
   color: var(--color-text-secondary);
   animation: bounce 2s infinite;
