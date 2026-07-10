@@ -447,7 +447,7 @@ body {
 }
 @media (max-width:440px){
   .home{
-    padding-top: 160px;
+    padding-top: 135px;
   }
   .home h1{
     font-size:2.2rem; 
