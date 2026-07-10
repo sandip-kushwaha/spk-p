@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 const Menubar = () => {
   
   const [open, setOpen] = useState(false)
+  const [isSticky, setIsSticky] = useState(false)
   const navRef = useRef(null)
 
   useEffect(() => {
@@ -23,8 +24,12 @@ const Menubar = () => {
       if (!navRef.current.contains(e.target)) setOpen(false)
     }
 
-    const handleScroll = () => setOpen(false)
+    const handleScroll = () => {
+      setOpen(false)
+      setIsSticky(window.scrollY > 10)
+    }
 
+    handleScroll();
     document.addEventListener('click', handleOutside)
     document.addEventListener('touchstart', handleOutside)
     window.addEventListener('scroll', handleScroll, true)
@@ -37,7 +42,7 @@ const Menubar = () => {
   }, [])
 
   return (
-    <div className='menu-header'>
+    <div className={`menu-header ${isSticky ? 'sticky' : ''}`}>
       <nav ref={navRef} className={`menubar ${open ? 'open' : ''}`}>
         <h1>Sandip</h1>
         <button className='menu-icon' 
