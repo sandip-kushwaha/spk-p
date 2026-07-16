@@ -9,7 +9,7 @@
   border-color: #00aeff2a;
   border-width: 1px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  z-index: 9999;  
+  z-index: 1;  
   width: 95%;
   background-color: var(--color-card);
   backdrop-filter: blur(6px);
