@@ -16,7 +16,7 @@
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    z-index: 9999;
+    z-index: 1;
     transition: top 0.3s ease;
 }
 
