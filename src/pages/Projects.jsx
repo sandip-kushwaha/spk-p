@@ -23,7 +23,7 @@ const Projects = () => {
                 <img src={Project1Img} alt="project1" />
                 <h2>Project 1: Portfolio Website</h2>
                 <p>A personal portfolio website built with React, showcasing my skills, projects, and experience.</p>
-                <a href="https://sandipkushwaha.onrender.com/">View Project</a>
+                <a href="https://www.sandipprasadkushwaha.com.np/">View Project</a>
               </div>
             </HoverSlideUp>
           </StaggerItem>
@@ -45,7 +45,7 @@ const Projects = () => {
                 <img src={Project3Img} alt="project3" />
                 <h2>Project 3: Portfolio Website</h2>
                 <p>A personal portfolio website built with HTML, CSS, and JavaScript, featuring a responsive design and smooth animations.</p>
-                <a href="https://sandipkushwaha.onrender.com/">View Project</a>
+                <a href="https://www.sandipprasadkushwaha.com.np/">View Project</a>
               </div>
             </HoverSlideUp>
           </StaggerItem>
