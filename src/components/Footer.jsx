@@ -20,8 +20,6 @@ const Footer = () => {
           </nav>
         </div>
         <div className="social">
-          <h4>Follow me</h4>
-          <BsArrowRight className='footericon'/> 
           <a href="https://www.linkedin.com/in/sandip-kushwaha-20b8702ba" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link">
             <FaLinkedin size={30} className="social-icon" />
           </a>
