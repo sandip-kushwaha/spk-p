@@ -10,7 +10,9 @@ import CplusplusLogo from '../assets/Cplusplus.png';
 import GitLogo from '../assets/git.png';
 import GithubLogo from '../assets/github.png';
 import MongoDBAtlasLlogo from '../assets/MongoDBAtlas.png';
-import VscodeLogo from '../assets/VScode.png'
+import PostmanLogo from '../assets/Postman.png';
+import cloudinaryLogo from '../assets/Cloudinary.png';
+import VscodeLogo from '../assets/VScode.png';
 import { FadeInDown, ScrollFadeInUp, StaggerContainer, StaggerItem, ScaleOnHover } from '../animations/ScrollAnimations';
 import { Link } from 'react-router-dom';
 
@@ -117,6 +119,22 @@ import { Link } from 'react-router-dom';
                 <div className='skill-item'>
                   <img src={MongoDBAtlasLlogo} alt='mongodbatlas'/>
                   <p>MongoDBAtlas</p>
+                </div>
+              </ScaleOnHover>
+            </StaggerItem>
+             <StaggerItem>
+              <ScaleOnHover scale={1.04}>
+                <div className='skill-item'>
+                  <img src={PostmanLogo} alt='postman' />
+                  <p>Postman</p>
+                </div>
+              </ScaleOnHover>
+            </StaggerItem>
+            <StaggerItem>
+              <ScaleOnHover scale={1.04}>
+                <div className='skill-item'>
+                  <img src={cloudinaryLogo} alt='cloudinary' />
+                  <p>Cloudinary</p>
                 </div>
               </ScaleOnHover>
             </StaggerItem>

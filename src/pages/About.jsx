@@ -27,7 +27,10 @@ const About = () => {
                   <li className='skill'>C / C+</li>
                   <li className='skill'>Python</li>
                   <li className="skill">Responsive Design</li>
+                  <li className='skill'>RESTful APIs</li>
+                  <li className='skill'>Version Control (Git)</li>
                   <li className="skill">API Development</li>
+                  <li className='skill'>API Testing</li>
                 </ul>
               </div>
             </ScrollFadeInUp>
@@ -39,9 +42,18 @@ const About = () => {
                   <li className="education-item">
                     <div className="edu-left">
                       <strong>Bachelor's in Computer Science & Information Technology</strong>
+                      <p>Hetauda City College, Hetauda</p>
                       <div className="edu-meta">Tribhuvan University — 2024-2027</div>
                     </div>
                     <div className="edu-right">Focus: Web development & programming</div>
+                  </li>
+                  <br/>
+                  <li className="education-item">
+                    <div className="edu-left">
+                      <strong>+2 (Science)</strong>
+                      <p>Makawanpur Multiple Campus, Hetauda</p>
+                      <div className="edu-meta">National Examinations Board(NEB) — 2021-2023</div>
+                    </div>
                   </li>
                 </ul>
               </div>
