@@ -53,9 +53,36 @@
     font-size: 15px;
     transition: color 0.3s ease;
 }
-.navbar-item a:hover{
-    color: var(--color-text-primary);
+
+.roll-link {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.2;
 }
+
+ .roll-text {
+  display: block;
+  transition: transform 0.25s ease-in-out;
+}
+
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  color: var(--color-text-primary); 
+}
+
+.roll-link:hover .roll-text:not(.hover-text) {
+  transform: translateY(-100%);
+}
+
+.roll-link:hover .hover-text {
+  transform: translateY(0%);
+} 
 
 .hire{
     position: relative;

@@ -37,10 +37,25 @@ const Navbar = () => {
     <div className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <h2>Sandip</h2>
       <nav className='navbar-item'>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" className="roll-link">
+          <span className="roll-text">Home</span>
+          <span className="roll-text hover-text">Home</span>
+        </Link>
+
+        <Link to="/about" className="roll-link">
+          <span className="roll-text">About</span>
+          <span className="roll-text hover-text">About</span>
+        </Link>
+
+        <Link to="/projects" className="roll-link">
+          <span className="roll-text">Projects</span>
+          <span className="roll-text hover-text">Projects</span>
+        </Link>
+
+        <Link to="/contact" className="roll-link">
+          <span className="roll-text">Contact</span>
+          <span className="roll-text hover-text">Contact</span>
+        </Link>
       </nav>
 
       <Link className='hire' to="/hire">Hire Me</Link>
