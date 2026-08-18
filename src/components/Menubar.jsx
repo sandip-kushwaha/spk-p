@@ -54,11 +54,11 @@ const Menubar = () => {
         </button>
 
         <ul className={open ? 'open' : ''}>
-          <li><Link to="/" onClick={() => setOpen(false)}>Home</Link></li>
-          <li><Link to="/about" onClick={() => setOpen(false)}>About</Link></li>
-          <li><Link to="/projects" onClick={() => setOpen(false)}>Projects</Link></li>
-          <li><Link to="/contact" onClick={() => setOpen(false)}>Contact</Link></li>
-          <li><Link to="/hire" onClick={() => setOpen(false)}>Hire Me</Link></li>
+          <li><Link to="/" onClick={() => setOpen(true)}>Home</Link></li>
+          <li><Link to="/about" onClick={() => setOpen(true)}>About</Link></li>
+          <li><Link to="/projects" onClick={() => setOpen(true)}>Projects</Link></li>
+          <li><Link to="/contact" onClick={() => setOpen(true)}>Contact</Link></li>
+          <li><Link to="/hire" onClick={() => setOpen(true)}>Hire Me</Link></li>
         </ul>
       </nav>
     </div>
