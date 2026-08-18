@@ -1,6 +1,6 @@
 
 import './About.css'
-import SK_image from '../assets/sandip_photo.png';
+import SK_image from '../assets/sandip_image.png';
 import { SlideInLeft, SlideInRight, ScrollFadeInUp } from '../animations/ScrollAnimations'
 
 const About = () => {
