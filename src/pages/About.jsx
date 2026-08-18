@@ -24,6 +24,7 @@ const About = () => {
                   <li className='skill'>Express</li>
                   <li className="skill">Javascript</li>
                   <li className='skill'>HTML / CSS</li>
+                  <li className='skill'>Tailwind CSS</li>
                   <li className='skill'>C / C+</li>
                   <li className='skill'>Python</li>
                   <li className="skill">Responsive Design</li>

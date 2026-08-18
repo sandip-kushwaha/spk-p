@@ -7,6 +7,7 @@ import ExpressLogo from '../assets/Express.png';
 import MongodbLogo from '../assets/MongoDB.png'
 import PythonLogo from '../assets/python.png';
 import CplusplusLogo from '../assets/Cplusplus.png';
+import TailwindCss  from '../assets/tailwindcss.png'
 import GitLogo from '../assets/git.png';
 import GithubLogo from '../assets/github.png';
 import MongoDBAtlasLlogo from '../assets/MongoDBAtlas.png';
@@ -95,6 +96,14 @@ import { Link } from 'react-router-dom';
                 <div className='skill-item'>
                   <img src={CplusplusLogo} alt='C++' />
                   <p>C++</p>
+                </div>
+              </ScaleOnHover>
+            </StaggerItem>
+            <StaggerItem>
+              <ScaleOnHover scale={1.04}>
+                <div className='skill-item'>
+                  <img src={TailwindCss} alt='tailwindcss' />
+                  <p>Tailwind CSS</p>
                 </div>
               </ScaleOnHover>
             </StaggerItem>
