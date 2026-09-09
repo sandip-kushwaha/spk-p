@@ -138,7 +138,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 50px auto;
-  padding: 0 80px;
+  padding: 0 100px;
   gap: 10px;
   justify-content: center;
 }
@@ -422,8 +422,14 @@ body {
   .contact-grid { 
     flex-direction: column;
    }
+   .skills .skills-list{
+    padding: 50px;
+   }
 }
 @media (max-width: 480px) {
+  .skills .skills-list{
+    padding: 30px;
+   }
   .project-card {
     width: 100%;
   }
