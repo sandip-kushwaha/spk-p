@@ -14,8 +14,9 @@ import MongoDBAtlasLlogo from '../assets/MongoDBAtlas.png';
 import PostmanLogo from '../assets/Postman.png';
 import cloudinaryLogo from '../assets/Cloudinary.png';
 import VscodeLogo from '../assets/VScode.png';
-import { FadeInDown, ScrollFadeInUp, StaggerContainer, StaggerItem, ScaleOnHover } from '../animations/ScrollAnimations';
-import { Link } from 'react-router-dom';
+import { ScrollFadeInUp, StaggerContainer, StaggerItem, ScaleOnHover } from '../animations/ScrollAnimations';
+import VercelLogo from "../assets/vercel.png"
+
 
 
  const Skill = () => {
@@ -132,6 +133,14 @@ import { Link } from 'react-router-dom';
               </ScaleOnHover>
             </StaggerItem>
              <StaggerItem>
+              <ScaleOnHover scale={1.04}>
+                <div className='skill-item'>
+                  <img src={VercelLogo} alt='vercel' />
+                  <p>Vercel</p>
+                </div>
+              </ScaleOnHover>
+            </StaggerItem>
+            <StaggerItem>
               <ScaleOnHover scale={1.04}>
                 <div className='skill-item'>
                   <img src={PostmanLogo} alt='postman' />

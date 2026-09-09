@@ -138,26 +138,27 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 50px auto;
-  gap: 20px;
+  padding: 0 37px ;
+  gap: 10px;
   justify-content: center;
 }
 .skills-list .skill-item {
   background-color: var(--color-card);
-  padding: 18px;
+  padding: 20px;
   border-radius: 8px;
-  width: 200px;
+  width: 150px;
   text-align: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   font-size: 18px;
 }
 .skill-item p{
   color: var(--color-text-primary);
-  font-size: 18px;
+  font-size: 15px;
 }
 /* Ensure skill icons are a consistent size and centered */
 .skills-list .skill-item img {
-  width: 72px;
-  height: 72px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
   display: block;
   margin: 0 auto 10px;
@@ -167,7 +168,6 @@ body {
 }
 .skill-item:hover {
   background-color: #e4e4e433;
-  transform: scale(1.1);
   transition: transform 0.3s ease;
 }
 
