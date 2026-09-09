@@ -155,6 +155,7 @@ body {
   color: var(--color-text-primary);
   font-size: 15px;
 }
+
 /* Ensure skill icons are a consistent size and centered */
 .skills-list .skill-item img {
   width: 40px;
