@@ -2,10 +2,14 @@
 import './Footer.css'
 import {FaLinkedin, FaGithub } from "react-icons/fa";
 import { ScrollFadeInUp } from '../animations/ScrollAnimations';
-import { BsArrowRight } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
+
+  console.log(currentYear)
+
   return (
     <ScrollFadeInUp>
       <div className="footer">
@@ -27,7 +31,7 @@ const Footer = () => {
             <FaGithub size={30} className="social-icon" />
           </a>
         </div>
-        <p className='copyright'>&copy; 2026 Sandip Kushwaha. All rights reserved.</p>
+        <p className='copyright'>&copy; {currentYear} Sandip Kushwaha. All rights reserved.</p>
       </div>
     </ScrollFadeInUp>
   )
