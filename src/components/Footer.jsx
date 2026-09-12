@@ -8,8 +8,6 @@ const Footer = () => {
 
   const currentYear = new Date().getFullYear();
 
-  console.log(currentYear)
-
   return (
     <ScrollFadeInUp>
       <div className="footer">
