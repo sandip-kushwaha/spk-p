@@ -4,7 +4,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import { useState, useEffect } from 'react';
 import { BsArrowDown } from "react-icons/bs";
-import { FadeInDown, ScrollFadeInUp, StaggerContainer, StaggerItem, ScaleOnHover } from '../animations/ScrollAnimations';
+import { FadeInDown } from '../animations/ScrollAnimations';
 import { Link } from 'react-router-dom';
 
 

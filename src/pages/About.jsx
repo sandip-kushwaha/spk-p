@@ -22,7 +22,7 @@ const About = () => {
                   <li className="skill">Node.js</li>
                   <li className="skill">MongoDB</li>
                   <li className='skill'>Express</li>
-                  <li className="skill">Javascript</li>
+                  <li className="skill">Javascript (+ES6)</li>
                   <li className='skill'>HTML / CSS</li>
                   <li className='skill'>Tailwind CSS</li>
                   <li className='skill'>C / C+</li>
