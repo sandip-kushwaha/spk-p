@@ -26,9 +26,10 @@ const Home = () => {
     <>
       {/* Home Page SEO Tags */}
       <SEO
-        title="Sandip Prasad Kushwaha | Full Stack Web Developer Nepal"
-        description="Official portfolio of Sandip Prasad Kushwaha — Full Stack Developer from Nepal specializing in React, Node.js, Express, and MongoDB (MERN Stack)."
+        title="Sandip Prasad Kushwaha | Full Stack Developer Nepal"
+        description="Sandip Prasad Kushwaha is a MERN Stack Developer from Nepal building responsive React and Node.js web applications."
         url="https://www.sandipprasadkushwaha.com.np/"
+        image="https://www.sandipprasadkushwaha.com.np/assets/sandip_image.webp"
       />
 
       <FadeInDown>

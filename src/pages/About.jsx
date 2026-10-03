@@ -13,8 +13,9 @@ const About = () => {
       {/* About Page SEO Meta Tags */}
       <SEO
         title="About Me"
-        description="Learn more about Sandip Prasad Kushwaha — CSIT Student & Full Stack Web Developer based in Hetauda, Nepal. Skills in React, Node.js, and Express."
+        description="Learn more about Sandip Prasad Kushwaha — CSIT Student & Full Stack Web Developer based in Hetauda, Nepal."
         url="https://www.sandipprasadkushwaha.com.np/about"
+        image="https://www.sandipprasadkushwaha.com.np/assets/sandip_image.webp"
       />
 
       <section className="about-section">

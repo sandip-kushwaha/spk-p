@@ -5,7 +5,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { FadeInDown } from "../animations/ScrollAnimations";
-import SEO from "../components/SEO"; 
+import SEO from "../components/SEO";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -91,8 +91,9 @@ const Contact = () => {
       {/* Contact Page SEO Meta Tags */}
       <SEO
         title="Contact Me"
-        description="Get in touch with Sandip Prasad Kushwaha — Full Stack Developer based in Nepal. Available for freelance projects, hiring, and technical collaborations."
+        description="Get in touch with Sandip Prasad Kushwaha for freelance web development projects and full-stack software development work."
         url="https://www.sandipprasadkushwaha.com.np/contact"
+        image="https://www.sandipprasadkushwaha.com.np/assets/sandip_image.webp"
       />
 
       <div className="contact">

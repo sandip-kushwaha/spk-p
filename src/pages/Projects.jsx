@@ -17,10 +17,10 @@ const Projects = () => {
       {/* SEO Tags */}
       <SEO
         title="Projects"
-        description="Explore web development projects built by Sandip Prasad Kushwaha including React, Node.js, Express, and MongoDB applications."
+        description="Explore full-stack web development projects built by Sandip Prasad Kushwaha using React, Node.js, Express, and MongoDB."
         url="https://www.sandipprasadkushwaha.com.np/projects"
+        image="https://www.sandipprasadkushwaha.com.np/assets/sandip_image.webp"
       />
-
       <FadeInDown>
         <div className="projects-header">
           <h1>My Projects</h1>
