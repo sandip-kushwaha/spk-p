@@ -49,7 +49,7 @@ const Home = () => {
       <FadeInDown delay={0.2}>
         <div className="home-btn">
           <button className="btn">
-            <a href="/resume">View My Resume</a>
+            <a >View My Resume</a>
           </button>
           <Link to="/contact" className="btn">
             Get In Touch
