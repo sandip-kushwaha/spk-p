@@ -1,5 +1,5 @@
 import "./About.css";
-import SK_image from "../assets/sandip_image.png";
+import SK_image from "../assets/sandip_image.webp";
 import SEO from "../components/SEO";
 import {
   SlideInLeft,

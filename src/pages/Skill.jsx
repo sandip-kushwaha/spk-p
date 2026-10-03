@@ -1,20 +1,20 @@
-import ReactLogo from "../assets/React.png";
-import HtmlLogo from "../assets/HTML.png";
-import CssLogo from "../assets/CSS.png";
-import JavaScriptLogo from "../assets/javascript.png";
-import NodejsLogo from "../assets/Node.js.png";
-import ExpressLogo from "../assets/Express.png";
-import MongodbLogo from "../assets/MongoDB.png";
-import PythonLogo from "../assets/python.png";
-import CplusplusLogo from "../assets/Cplusplus.png";
-import TailwindCss from "../assets/tailwindcss.png";
-import GitLogo from "../assets/git.png";
-import GithubLogo from "../assets/github.png";
-import MongoDBAtlasLlogo from "../assets/MongoDBAtlas.png";
-import PostmanLogo from "../assets/Postman.png";
-import cloudinaryLogo from "../assets/Cloudinary.png";
-import VscodeLogo from "../assets/VScode.png";
-import VercelLogo from "../assets/vercel.png";
+import ReactLogo from "../assets/React.webp";
+import HtmlLogo from "../assets/HTML.webp";
+import CssLogo from "../assets/CSS.webp";
+import JavaScriptLogo from "../assets/javascript.webp";
+import NodejsLogo from "../assets/Node.webp";
+import ExpressLogo from "../assets/Express.webp";
+import MongodbLogo from "../assets/MongoDB.webp";
+import PythonLogo from "../assets/python.webp";
+import CplusplusLogo from "../assets/Cplusplus.webp";
+import TailwindCss from "../assets/tailwindcss.webp";
+import GitLogo from "../assets/git.webp";
+import GithubLogo from "../assets/github.webp";
+import MongoDBAtlasLlogo from "../assets/MongoDBAtlas.webp";
+import PostmanLogo from "../assets/Postman.webp";
+import cloudinaryLogo from "../assets/Cloudinary.webp";
+import VscodeLogo from "../assets/VScode.webp";
+import VercelLogo from "../assets/vercel.webp";
 import {
   ScrollFadeInUp,
   StaggerContainer,

@@ -1,8 +1,8 @@
 import SEO from "../components/SEO";
-import Project1Img from "../assets/Project-1.png";
-import Project2Img from "../assets/Project-2.png";
-import Project3Img from "../assets/Project-3.png";
-import Project5Img from "../assets/Project-5.png";
+import Project1Img from "../assets/Project-1.webp";
+import Project2Img from "../assets/Project-2.webp";
+import Project3Img from "../assets/Project-3.webp";
+import Project5Img from "../assets/Project-5.webp";
 import ReactLogo from "../assets/react.svg";
 import {
   FadeInDown,
