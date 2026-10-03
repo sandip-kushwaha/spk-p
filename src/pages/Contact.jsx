@@ -5,6 +5,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { FadeInDown } from "../animations/ScrollAnimations";
+import SEO from "../components/SEO"; 
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -32,7 +33,7 @@ const Contact = () => {
     } catch (err) {
       console.error("Failed to initialize EmailJS", err);
     }
-  }, []);
+  }, [SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -86,91 +87,102 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
-      <FadeInDown>
-        <h1>Contact Me</h1>
-        <p>Feel free to reach out to me for any inquiries or opportunities!</p>
-     
-      <div className="contact-grid">
-        {/* Contact Info */}
-          <div className="contact-info">
-            <h2>Contact Information</h2>
+    <>
+      {/* Contact Page SEO Meta Tags */}
+      <SEO
+        title="Contact Me"
+        description="Get in touch with Sandip Prasad Kushwaha — Full Stack Developer based in Nepal. Available for freelance projects, hiring, and technical collaborations."
+        url="https://www.sandipprasadkushwaha.com.np/contact"
+      />
 
-            <p>
-              I'm currently open to freelance work and full-time opportunities. If
-              you have an idea or project in mind, let's build something amazing
-              together.
+      <div className="contact">
+        <FadeInDown>
+          <h1>Contact Me</h1>
+          <p>
+            Feel free to reach out to me for any inquiries or opportunities!
           </p>
 
-          <div className="contact-details">
-            <div className="contact-email">
-              <a href="mailto:kushwahasandip208@gmail.com">
-                <MdEmail size={35} /> kushwahasandip208@gmail.com
-              </a>
-            </div>
+          <div className="contact-grid">
+            {/* Contact Info */}
+            <div className="contact-info">
+              <h2>Contact Information</h2>
 
-            <div className="contact-phone">
-              <a href="tel:+9779741865023">
-                <FaPhoneAlt size={30} /> +977 9741865023
-              </a>
-            </div>
-
-            <div className="contact-address">
               <p>
-                <IoLocationSharp size={35} /> Madhesh Province, Bara, Nepal
+                I'm currently open to freelance work and full-time
+                opportunities. If you have an idea or project in mind, let's
+                build something amazing together.
+              </p>
+
+              <div className="contact-details">
+                <div className="contact-email">
+                  <a href="mailto:kushwahasandip208@gmail.com">
+                    <MdEmail size={35} /> kushwahasandip208@gmail.com
+                  </a>
+                </div>
+
+                <div className="contact-phone">
+                  <a href="tel:+9779741865023">
+                    <FaPhoneAlt size={30} /> +977 9741865023
+                  </a>
+                </div>
+
+                <div className="contact-address">
+                  <p>
+                    <IoLocationSharp size={35} /> Madhesh Province, Bara, Nepal
+                  </p>
+                </div>
+              </div>
+
+              <p className="contact-message">
+                Thanks for visiting my contact page. I look forward to
+                connecting with you!
               </p>
             </div>
+
+            {/* Contact Form */}
+            <div className="contact-form">
+              <h2>Send me a message</h2>
+
+              <form onSubmit={handleSubmit}>
+                <label htmlFor="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+
+                <label htmlFor="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                ></textarea>
+
+                <button type="submit" className="btn" disabled={loading}>
+                  {loading ? "Sending..." : "Send Message"}
+                </button>
+              </form>
+            </div>
           </div>
-
-          <p className="contact-message">
-            Thanks for visiting my contact page. I look forward to connecting
-            with you!
-          </p>
-        </div>
-
-        {/* Contact Form */}
-          <div className="contact-form">
-          <h2>Send me a message</h2>
-
-          <form onSubmit={handleSubmit}>
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-
-            <label htmlFor="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="6"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            ></textarea>
-
-            <button type="submit" className="btn">
-              {loading ? "Sending..." : "Send Message"}
-            </button>
-          </form>
-        </div>
+        </FadeInDown>
       </div>
-     </FadeInDown>
-    </div>
+    </>
   );
 };
 
