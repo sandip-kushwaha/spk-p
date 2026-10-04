@@ -47,8 +47,7 @@ const About = () => {
                     <li className="skill">Javascript (+ES6)</li>
                     <li className="skill">HTML / CSS</li>
                     <li className="skill">Tailwind CSS</li>
-                    <li className="skill">C / C++</li>{" "}
-                    {/* C+ को बदल कर C++ कर दिया गया है */}
+                    <li className="skill">C / C++</li>
                     <li className="skill">Python</li>
                     <li className="skill">Responsive Design</li>
                     <li className="skill">RESTful APIs</li>
